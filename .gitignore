@@ -1,0 +1,17 @@
+# Platform specific
+.DS_STORE
+
+blob-store
+compile-cache
+dev
+storage
+.apm
+.node-gyp
+.npm
+
+# Packages and stuff
+packages/
+atom-shell/
+
+# Don't need this either
+recovery/

@@ -1,0 +1,117 @@
+"*":
+  "atom-beautify":
+    python:
+      multi_line_output: "Hanging Indent"
+  "atom-latex":
+    clean_after_build: true
+    preview_after_build: "Do nothing"
+  core:
+    closeDeletedFileTabs: true
+    customFileTypes:
+      "source.ini": [
+        ".buckconfig"
+        ".hgrc"
+        ".flowconfig"
+      ]
+      "source.json": [
+        "BUCK.autodeps"
+      ]
+      "source.python": [
+        "BUCK"
+      ]
+    disabledPackages: [
+      "about"
+      "linter-js-standard"
+      "linter"
+      "nuclide"
+      "atom-latex"
+    ]
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "desktop.ini"
+      "*.pyc"
+      "__pycache__"
+    ]
+    openEmptyEditorOnStart: false
+    restorePreviousWindowsOnStart: "no"
+    telemetryConsent: "no"
+    themes: [
+      "apex-adapt-dark-slim-ui"
+      "aurora-theme"
+    ]
+    warnOnLargeFileLimit: 10
+  editor:
+    fontSize: 11
+    maxScreenLineLength: 2048
+    scrollPastEnd: true
+    showIndentGuide: true
+    tabType: "soft"
+    zoomFontWhenCtrlScrolling: true
+  "exception-reporting":
+    userId: "aed59fe7-ae3d-4f09-af3e-7b854e69ec12"
+  "go-plus":
+    config: {}
+    disabledBundledPackages: [
+      "go-debug"
+      "linter"
+    ]
+  "isotope-ui":
+    backgroundGradient: true
+    fontFamily: "Ubuntu"
+    fontWeight: "Extra light / Thin"
+    lowContrastTooltip: true
+    matchEditorFont: true
+    minimalMode: true
+    tabSizing: "Minimum"
+  latex:
+    buildOnSave: true
+    openResultAfterBuild: false
+    openResultInBackground: false
+  "linter-ui-default":
+    panelHeight: 129
+  nuclide:
+    "nuclide-file-tree":
+      hideIgnoredNames: false
+    "nuclide-home":
+      showHome: false
+    "nuclide-remote-projects":
+      connectionProfiles: [
+        {
+          deletable: true
+          displayTitle: "adplatform"
+          params:
+            authMethod: "PRIVATE_KEY"
+            cwd: "/opt"
+            displayTitle: "adplatform"
+            pathToPrivateKey: "/Users/passion/.ssh/id_rsa"
+            remoteServerCommand: ""
+            server: "ad.isis.poly.edu"
+            sshPort: "22"
+            username: "pa_ssion"
+          saveable: true
+        }
+      ]
+  "one-o-eight-syntax":
+    backgroundVariant: "Dark"
+  "spell-check":
+    locales: [
+      "en-US"
+    ]
+  "todo-show":
+    sortAscending: false
+  "tree-view":
+    alwaysOpenExisting: true
+    hideIgnoredNames: true
+    squashDirectoryNames: true
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ensureSingleTrailingNewline: false
+".latex.tex.text":
+  editor:
+    softWrap: true
